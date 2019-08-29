@@ -10,7 +10,7 @@ const screenHeight = Math.round(Dimensions.get('window').height);
 const axiosGitHubGraphQL = axios.create({
   baseURL: 'https://api.github.com/graphql',
   headers: {
-    Authorization: 'bearer 82cab81619fcccb82029e905ff2a65a1c424972f',
+    Authorization: 'bearer YOUR_GITHUB_ACCESS TOKEN',
   },
 });
 const GET_ISSUES_OF_REPOSITORY = `
